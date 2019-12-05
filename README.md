@@ -1,3 +1,3 @@
 Hello,
 
-This repository contains a .c file that is a maze generator named maze.c. The map is a rectangle of "cells" (or grids). Each cell is either a wall (expresed by b as brick) or a passage way (expressed by a blank space).
+This repository contains a .c file that is a maze generator named maze.c. The map is a rectangle of "cells" (or grids). Each cell is either a wall (expresed by b as brick) or a passage way (expressed by a blank space). The maze_solver.c file take the maze that is generated and solve it. Not only does the maze_solver solve the maze, but it goes through the whole maze and writes out how many steps it takes to get to each position on the maze. Additionally within the maze_solver file it has a journal feature to keep track of all changes that are made to the maze. This journal feature creates a new txt file(journal) that keeps track of all changes that are made to the maze.
